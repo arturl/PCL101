@@ -9,6 +9,7 @@
     <Import_RootNamespace>PCL101</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Adder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common.cs" />
   </ItemGroup>
 </Project>

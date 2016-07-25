@@ -108,7 +108,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adder.WinRT.cs" />
+    <Compile Include="UWPSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="..\PCL101\Shared\PCL101.Shared.Common.projitems" Label="Shared" />

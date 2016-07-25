@@ -8,6 +8,7 @@ namespace PCL101
 {
     internal class CommonUtils
     {
+        // This function is completely cross-platform and works on any project the includes Shared.Common
         public static int SillyAdditionImplementation(int x, int y)
         {
             int result = 0;
@@ -22,6 +23,11 @@ namespace PCL101
                 result++;
             }
             return result;
+        }
+
+        public static void UseSockets()
+        {
+            // Socket s = new Socket(AddressFamily.InterNetworkV6, SocketType.Stream, ProtocolType.Tcp);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var x = PCL101.Adder.add(10, 20);
+            var x = PCL101.Math.add(10, 20);
         }
     }
 }

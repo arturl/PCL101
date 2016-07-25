@@ -2,9 +2,9 @@
 
 namespace PCL101
 {
-    public sealed class Adder
+    public sealed class DesktopSupport
     {
-        private static int SpawnThreadAndAddTwoNumbers(int x, int y)
+        public static int SpawnThreadAndAddTwoNumbers(int x, int y)
         {
             int z = 0;
             var ev = new ManualResetEvent(false);
@@ -16,11 +16,6 @@ namespace PCL101
             t.Start();
             ev.WaitOne();
             return z;
-        }
-
-        public static int add(int x, int y)
-        {
-            return SpawnThreadAndAddTwoNumbers(x, y);
         }
     }
 

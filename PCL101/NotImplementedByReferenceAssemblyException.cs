@@ -16,12 +16,4 @@ namespace PCL101
         {
         }
     }
-
-    public sealed class Adder
-    {
-        public static int add(int x, int y)
-        {
-            throw new NotImplementedByReferenceAssemblyException();
-        }
-    }
 }
